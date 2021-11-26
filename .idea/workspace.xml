@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcafb984-8eee-43af-84c8-6ae78fe63924" name="Changes" comment="example">
-      <change beforePath="$PROJECT_DIR$/methodo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/methodo/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="bcafb984-8eee-43af-84c8-6ae78fe63924" name="Changes" comment="example2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637932881528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="example2">
+      <created>1637932922217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637932922217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +83,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hosts" />
     <MESSAGE value="example" />
-    <option name="LAST_COMMIT_MESSAGE" value="example" />
+    <MESSAGE value="example2" />
+    <option name="LAST_COMMIT_MESSAGE" value="example2" />
   </component>
 </project>
