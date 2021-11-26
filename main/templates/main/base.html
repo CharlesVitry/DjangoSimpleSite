@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    {% block css %}{% endblock %}
+    <title>{% block title %}Chamilo 2.0{% endblock %}</title>
+</head>
+<body>
+    {% include 'main/nav.html' %}
+
+    {% if messages %}
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        {% for message in messages %}
+            {{ message }}
+        {% endfor %}
+    </div>
+    {% endif %}
+   
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+
+        <a href="#">Page suivante</a>      <!-- liaison-->
+        <a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail!</a>        <!-- pour que les visiteurs puissent envoyer un e-mail-->
+
+    </footer>
+</body>
+</html>

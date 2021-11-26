@@ -1,0 +1,36 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" />
+{% endblock %}
+
+
+{% block content %}
+
+    <h1>Register</h1>
+<br><br>
+
+{% if form.errors %}
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <p>Il y a eu une erreur d'authentification</p>
+</div>
+{% endif %}
+
+<form action="{% url 'register' %}" method="post">
+    {% csrf_token %}
+
+    <section>
+        <article>
+            {{ form }}
+    <br><br>
+    <input type="submit" value="Submit" class="submit-btn btn btn-secondary">
+
+</article>
+</section>
+
+</form>
+<br><br>
+
+{% endblock %}
